@@ -1,2 +1,34 @@
+body {
+    height: 100vh;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    /* background-clip: before; */
+    /* background-attachment: fixed; */
+    background-size: auto 30%;
+    /* background-position-y: top; */
+
+}
+
+/* .purple-design {
+    height: 30%;
+    width: 100%;
+    background-color: hsl(292, 42%, 14%);
+} */
+
+.main-container {
+    width: 50%;
+    height: 40%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -70%;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
